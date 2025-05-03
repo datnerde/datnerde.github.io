@@ -481,6 +481,13 @@ ninja.data = [{
           window.open("mailto:%6D.%7A%68%6F%6E%67@%63%6F%6C%75%6D%62%69%61.%65%64%75", "_blank");
         },
       },{
+        id: 'social-linkedin',
+        title: 'LinkedIn',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://www.linkedin.com/in/stevenoppa", "_blank");
+        },
+      },{
         id: 'social-medium',
         title: 'Medium',
         section: 'Socials',
