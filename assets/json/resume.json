@@ -1,24 +1,29 @@
 {
   "basics": {
     "name": "Ming Zhong",
-    "label": "Data Scientist",
+    "label": "Senior Data Scientist",
     "image": "",
     "email": "m.zhong@columbia.edu",
     "phone": "(646) 287-6095",
     "url": "https://datnerde.github.io/",
     "summary": "Self-motivated Senior Data Scientist with 5+ years of experience in the retail industry. Expertise leveraging analytical techniques to transform data into business intelligence. Proven track record of collaborating across teams in agile framework, developing ETL pipelines, and providing data-driven solutions to drive business growth and operational efficiency.",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
+      "address": "",
+      "postalCode": "",
+      "city": "Tempe",
       "countryCode": "US",
-      "region": "California"
+      "region": "Arizona"
     },
     "profiles": [
       {
-        "network": "Linkedin",
+        "network": "LinkedIn",
         "username": "stevenoppa",
         "url": "https://www.linkedin.com/in/stevenoppa/"
+      },
+      {
+        "network": "GitHub",
+        "username": "datnerde",
+        "url": "https://datnerde.github.io/"
       }
     ]
   },
@@ -26,190 +31,156 @@
     {
       "name": "Circle K Stores Inc.",
       "position": "Senior Data Scientist",
-      "url": "https://example.com",
+      "url": "",
+      "location": "Tempe, AZ",
       "startDate": "2022-08-01",
       "endDate": "",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "summary": "Leading data science initiatives for retail site selection, financial forecasting, and pricing optimization.",
       "highlights": [
-        "Relativity"
+        "Developed and deployed a dashboard powered by multiple ML models to identify similar stores in existing network for financial forecasting, enabling Real Estate teams to effectively analyze key drivers and site comparability.",
+        "Built and deployed random forest models to predict ROI in 220K+ block groups, identifying 15K+ high-potential locations and narrowing real estate planning efforts in US and Canadian markets.",
+        "Enhanced revenue prediction accuracy by 15% through the development of a random forest regression model, preventing potential real estate investment failures exceeding $2M in the Texas sector.",
+        "Segmented stores using clustering algorithms such as DBSCAN, Spatial, PCA, k-means on site, demographics, transactional data to identify similar local markets within each business unit.",
+        "Designed and implemented A/B testing to measure the impact of price changes for Cigarettes in test stores which resulted in a margin uplift of $700,000 across the Midwest region."
       ]
-    }
-  ],
-  "volunteer": [
+    },
     {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
+      "name": "Circle K Stores Inc.",
+      "position": "Data Scientist",
+      "url": "",
+      "location": "Tempe, AZ",
+      "startDate": "2021-06-01",
+      "endDate": "2022-07-01",
+      "summary": "Focused on demand forecasting, pricing optimization, and ETL pipeline development.",
       "highlights": [
-        "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.",
-        "Men of the year 2014 by Time magazine"
+        "Predicting carwash demand using various forecasting models like Prophet, ARIMA, RNNs, and LSTM enabled stakeholders to optimize supply chain and pricing, resulting in cost savings exceeding $500k.",
+        "Led migration of pricing solution from Databricks notebooks to Azure Cloud environment with Azure Data Factory, reducing runtime by 88% (70 hours) and cutting costs by 76% ($500).",
+        "Estimated price elasticity for each SKU using Unobserved Component Model (UCM) for time series forecasting to optimize product pricing strategies, resulting in a 3% average margin lift (over $120M in gross margin) annually.",
+        "Engineered data pipelines to track the state of the storage and ensure data quality for modeling and business purposes, eliminating over 60 hours of manual labor per quarter."
+      ]
+    },
+    {
+      "name": "ROKT Corp.",
+      "position": "Business Analyst",
+      "url": "",
+      "location": "New York, NY",
+      "startDate": "2020-01-01",
+      "endDate": "2021-05-01",
+      "summary": "Provided analytical support for attribution modeling, COVID impact analysis, and NLP applications.",
+      "highlights": [
+        "Evaluated attribution identifier performance using SQL and recommended including phone numbers in the attribution model, driving a 40% increase in ad conversions.",
+        "Created Tableau COVID Recovery Dashboards tracking more than 10M transactions for 10+ major clients, providing critical insights for relaunch decisions for ad campaigns.",
+        "Developed an NLP-powered chatbot in Google Chat using Python and NLP libraries (spaCy, NLTK) to answer client campaign performance questions, winning first place in the company's hackathon."
+      ]
+    },
+    {
+      "name": "Roche Holding AG",
+      "position": "Data Science Intern",
+      "url": "",
+      "location": "New York, NY",
+      "startDate": "2019-07-01",
+      "endDate": "2019-08-01",
+      "summary": "Developed R tools and visualizations for clinical research.",
+      "highlights": [
+        "Developed an R package with data cleaning functions, cohort balancing using propensity scores, multiple hypothesis testing, and visualization for real-world evidence (RWE) data, which is used by 3+ researchers.",
+        "Enhanced, deployed and maintained an R Shiny App to visualize multidimensional patient time series data to help gain clinical insight, making it easy to share clinical result among teams."
       ]
     }
   ],
   "education": [
     {
+      "institution": "Georgia Institute of Technology",
+      "location": "Atlanta, GA",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
+      "startDate": "2023-08-01",
+      "endDate": "",
+      "score": "4.0",
+      "courses": []
+    },
+    {
       "institution": "Columbia University",
       "location": "New York, NY",
-      "url": "https://www.uzh.ch/",
+      "url": "",
       "area": "Statistics",
-      "studyType": "Master",
+      "studyType": "Master of Arts",
       "startDate": "2018-08-01",
-      "endDate": "2020-02-01",
+      "endDate": "2019-12-01",
+      "score": "3.6",
+      "courses": []
+    },
+    {
+      "institution": "University of Macau",
+      "location": "Macau, China",
+      "url": "",
+      "area": "Finance",
+      "studyType": "Bachelor of Science",
+      "startDate": "2014-09-01",
+      "endDate": "2018-07-01",
       "score": "3.7",
-      "courses": [
-        "Theory of Relativity"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [
-    {
-      "name": "Machine Learning",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-location-dot"
-    },
-    {
-      "name": "Quantum Computing",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-tag"
-    },
-    {
-      "name": "Quantum Information",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-envelope"
-    },
-    {
-      "name": "Quantum Cryptography",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-hashtag"
-    },
-    {
-      "name": "Quantum Communication",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-calendar"
-    },
-    {
-      "name": "Quantum Teleportation",
-      "date": "2018-01-01",
-      "issuer": "Stanford University",
-      "url": "https://example.com",
-      "icon": "fa-solid fa-clipboard-check"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
+      "courses": []
     }
   ],
   "skills": [
     {
-      "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "name": "Data Science",
+      "level": "Expert",
       "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
+        "Regression",
+        "Classification",
+        "Clustering",
+        "Time series analysis",
+        "A/B testing",
+        "NLP",
+        "ETL",
+        "Git"
+      ]
+    },
+    {
+      "name": "Analytic Tools",
+      "level": "Expert",
+      "keywords": [
+        "Python (pandas, scikit-learn, XGBoost, NLTK)",
+        "SQL",
+        "R (tidyverse, dplyr)",
+        "Tableau",
+        "Power BI"
+      ]
+    },
+    {
+      "name": "Big Data Technologies",
+      "level": "Advanced",
+      "keywords": [
+        "PySpark",
+        "Databricks",
+        "AWS (certified solution architect)",
+        "GCP",
+        "Azure"
       ]
     }
   ],
   "languages": [
     {
       "language": "Mandarin",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native speaker"
     },
     {
       "language": "Cantonese",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native speaker"
     },
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Fluent"
     }
   ],
-  "interests": [
+  "certificates": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
+      "name": "AWS Certified Solutions Architect",
+      "date": "",
+      "issuer": "Amazon Web Services",
+      "url": ""
     }
   ],
-  "references": [
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-laptop",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    },
-    {
-      "name": "Professor John Doe",
-      "icon": "fa-solid fa-thumbtack",
-      "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
-    }
-  ],
-  "projects": [
-    {
-      "name": "Quantum Computing",
-      "summary": "Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.",
-      "highlights": [
-        "Quantum Teleportation",
-        "Quantum Cryptography"
-      ],
-      "startDate": "2018-01-01",
-      "endDate": "2018-01-01",
-      "url": "https://example.com"
-    }
-  ]
+  "projects": []
 }
