@@ -136,12 +136,12 @@ disqus_shortname: al-folio # put your disqus shortname
 # -----------------------------------------------------------------------------
 
 collections:
-  # books:
-  #   output: false
-  # news:
-  #   defaults:
-  #     layout: post
-  #   output: false
+  books:
+    output: false
+  news:
+    defaults:
+      layout: post
+    output: false
   projects:
     output: true
 
