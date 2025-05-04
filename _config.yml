@@ -126,22 +126,22 @@ external_sources:
 # Newsletter
 # -----------------------------------------------------------------------------
 
-newsletter:
-  enabled: false
-  endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
-  # https://loops.so/docs/forms/custom-form
+# newsletter:
+#   enabled: false
+#   endpoint: # your loops endpoint (e.g., https://app.loops.so/api/newsletter-form/YOUR-ENDPOINT)
+#   # https://loops.so/docs/forms/custom-form
 
 # -----------------------------------------------------------------------------
 # Collections
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: false
-  news:
-    defaults:
-      layout: post
-    output: true
+  # books:
+  #   output: false
+  # news:
+  #   defaults:
+  #     layout: post
+  #   output: false
   projects:
     output: true
 
@@ -185,6 +185,9 @@ exclude:
   - readme_preview/
   - vendor
   - _pages/dropdown.nd
+  - _news
+  - _pages/news.md
+  - _includes/news.liquid
 keep_files:
   - CNAME
   - .nojekyll

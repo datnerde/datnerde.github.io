@@ -37,11 +37,11 @@
       "endDate": "",
       "summary": "Leading data science initiatives for retail site selection, financial forecasting, and pricing optimization.",
       "highlights": [
-        "Developed and deployed a dashboard powered by multiple ML models to identify similar stores in existing network for financial forecasting, enabling Real Estate teams to effectively analyze key drivers and site comparability.",
-        "Built and deployed random forest models to predict ROI in 220K+ block groups, identifying 15K+ high-potential locations and narrowing real estate planning efforts in US and Canadian markets.",
-        "Enhanced revenue prediction accuracy by 15% through the development of a random forest regression model, preventing potential real estate investment failures exceeding $2M in the Texas sector.",
-        "Segmented stores using clustering algorithms such as DBSCAN, Spatial, PCA, k-means on site, demographics, transactional data to identify similar local markets within each business unit.",
-        "Designed and implemented A/B testing to measure the impact of price changes for Cigarettes in test stores which resulted in a margin uplift of $700,000 across the Midwest region."
+        // "Developed and deployed a dashboard powered by multiple ML models to identify similar stores in existing network for financial forecasting, enabling Real Estate teams to effectively analyze key drivers and site comparability.",
+        // "Built and deployed random forest models to predict ROI in 220K+ block groups, identifying 15K+ high-potential locations and narrowing real estate planning efforts in US and Canadian markets.",
+        // "Enhanced revenue prediction accuracy by 15% through the development of a random forest regression model, preventing potential real estate investment failures exceeding $2M in the Texas sector.",
+        // "Segmented stores using clustering algorithms such as DBSCAN, Spatial, PCA, k-means on site, demographics, transactional data to identify similar local markets within each business unit.",
+        // "Designed and implemented A/B testing to measure the impact of price changes for Cigarettes in test stores which resulted in a margin uplift of $700,000 across the Midwest region."
       ]
     },
     {
@@ -53,10 +53,10 @@
       "endDate": "2022-07-01",
       "summary": "Focused on demand forecasting, pricing optimization, and ETL pipeline development.",
       "highlights": [
-        "Predicting carwash demand using various forecasting models like Prophet, ARIMA, RNNs, and LSTM enabled stakeholders to optimize supply chain and pricing, resulting in cost savings exceeding $500k.",
-        "Led migration of pricing solution from Databricks notebooks to Azure Cloud environment with Azure Data Factory, reducing runtime by 88% (70 hours) and cutting costs by 76% ($500).",
-        "Estimated price elasticity for each SKU using Unobserved Component Model (UCM) for time series forecasting to optimize product pricing strategies, resulting in a 3% average margin lift (over $120M in gross margin) annually.",
-        "Engineered data pipelines to track the state of the storage and ensure data quality for modeling and business purposes, eliminating over 60 hours of manual labor per quarter."
+        // "Predicting carwash demand using various forecasting models like Prophet, ARIMA, RNNs, and LSTM enabled stakeholders to optimize supply chain and pricing, resulting in cost savings exceeding $500k.",
+        // "Led migration of pricing solution from Databricks notebooks to Azure Cloud environment with Azure Data Factory, reducing runtime by 88% (70 hours) and cutting costs by 76% ($500).",
+        // "Estimated price elasticity for each SKU using Unobserved Component Model (UCM) for time series forecasting to optimize product pricing strategies, resulting in a 3% average margin lift (over $120M in gross margin) annually.",
+        // "Engineered data pipelines to track the state of the storage and ensure data quality for modeling and business purposes, eliminating over 60 hours of manual labor per quarter."
       ]
     },
     {
@@ -68,9 +68,9 @@
       "endDate": "2021-05-01",
       "summary": "Provided analytical support for attribution modeling, COVID impact analysis, and NLP applications.",
       "highlights": [
-        "Evaluated attribution identifier performance using SQL and recommended including phone numbers in the attribution model, driving a 40% increase in ad conversions.",
-        "Created Tableau COVID Recovery Dashboards tracking more than 10M transactions for 10+ major clients, providing critical insights for relaunch decisions for ad campaigns.",
-        "Developed an NLP-powered chatbot in Google Chat using Python and NLP libraries (spaCy, NLTK) to answer client campaign performance questions, winning first place in the company's hackathon."
+        // "Evaluated attribution identifier performance using SQL and recommended including phone numbers in the attribution model, driving a 40% increase in ad conversions.",
+        // "Created Tableau COVID Recovery Dashboards tracking more than 10M transactions for 10+ major clients, providing critical insights for relaunch decisions for ad campaigns.",
+        // "Developed an NLP-powered chatbot in Google Chat using Python and NLP libraries (spaCy, NLTK) to answer client campaign performance questions, winning first place in the company's hackathon."
       ]
     },
     {
@@ -82,8 +82,8 @@
       "endDate": "2019-08-01",
       "summary": "Developed R tools and visualizations for clinical research.",
       "highlights": [
-        "Developed an R package with data cleaning functions, cohort balancing using propensity scores, multiple hypothesis testing, and visualization for real-world evidence (RWE) data, which is used by 3+ researchers.",
-        "Enhanced, deployed and maintained an R Shiny App to visualize multidimensional patient time series data to help gain clinical insight, making it easy to share clinical result among teams."
+        // "Developed an R package with data cleaning functions, cohort balancing using propensity scores, multiple hypothesis testing, and visualization for real-world evidence (RWE) data, which is used by 3+ researchers.",
+        // "Enhanced, deployed and maintained an R Shiny App to visualize multidimensional patient time series data to help gain clinical insight, making it easy to share clinical result among teams."
       ]
     }
   ],
