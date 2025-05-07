@@ -394,22 +394,22 @@ ninja.data = [{
           title: 'Chi-square Test Guide',
           description: "Comprehensive guide to statistical testing",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Chi-square%20Test%20Guide/";
+              window.location.href = "/projects/Chi_square_Test_Guide/";
             },},{id: "projects-customer-segmentation-analysis",
           title: 'Customer Segmentation Analysis',
           description: "Predictive analytics for targeted marketing",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Customer%20Segmentation%20Analysis/";
+              window.location.href = "/projects/Customer_Segmentation_Analysis/";
             },},{id: "projects-h1b-dashboard",
           title: 'H1B Dashboard',
           description: "H1B visa application analysis tool",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/H1B%20Dashboard/";
+              window.location.href = "/projects/H1B_Dashboard/";
             },},{id: "projects-health-intelligence-shiny-app",
           title: 'Health Intelligence Shiny App',
           description: "Hospital recommendation system",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/Health%20Intelligence%20Shiny%20App/";
+              window.location.href = "/projects/Health_Intelligence_Shiny_App/";
             },},{
         id: 'social-email',
         title: 'email',
