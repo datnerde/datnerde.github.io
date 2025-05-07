@@ -20,6 +20,15 @@
   },
   "work": [
     {
+      "name": "Design Intelligence Laboratory (DILab)",
+      "position": "Resarch Assistant",
+      "url": "https://dilab.gatech.edu/team/ming-zhong/",
+      "location": "Remote",
+      "startDate": "2025-01-01",
+      "endDate": "",
+      "summary": "Building Financial Planning Simulation Web App, integrating with ChatGPT API for guided financial planning."
+    },
+    {
       "name": "Circle K Stores Inc.",
       "position": "Senior Data Scientist",
       "url": "",
