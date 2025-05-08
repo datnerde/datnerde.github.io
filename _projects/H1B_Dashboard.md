@@ -4,6 +4,7 @@ title: H1B Dashboard
 description: H1B visa application analysis tool
 importance: 2
 category: school
+related_publications: false
 ---
 
 # H1B Visa Application Dashboard
