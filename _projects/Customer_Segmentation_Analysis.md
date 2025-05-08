@@ -2,9 +2,9 @@
 layout: page
 title: Customer Segmentation Analysis
 description: Predictive analytics for targeted marketing
-img: https://miro.medium.com/max/700/0*aizXlnuOuFF1WOqM.png
 importance: 3
 category: school
+related_publications: false
 ---
 
 # Customer Segmentation for Arvato Financial Solutions

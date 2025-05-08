@@ -2,7 +2,6 @@
 layout: page
 title: H1B Dashboard
 description: H1B visa application analysis tool
-img: https://imageio.forbes.com/specials-images/imageserve/5f514aee56930497fa2f2f29/Concept-of-H1b-Visa-for-foreign-workers-showing-wooden-letters-with-US-or-United/0x0.jpg?format=jpg&crop=5078,2992,x626,y366,safe&width=960
 importance: 2
 category: school
 ---
