@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: Chi-square Test Guide
 description: Comprehensive guide to statistical testing
 img: https://images.unsplash.com/photo-1569803903286-eb86d49af323?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=852&q=80
@@ -31,7 +31,6 @@ Used to determine if a sample data matches a population with a specific distribu
 
 Used to determine if different populations have the same distribution of a categorical variable. For example, testing if the proportion of smokers is the same across different age groups.
 
-
 ## Implementation Guide
 
 The article provides step-by-step instructions for performing chi-square tests using:
@@ -41,6 +40,7 @@ The article provides step-by-step instructions for performing chi-square tests u
 - **Excel** (using built-in statistical functions)
 
 Each implementation includes:
+
 - Code examples with explanations
 - Common pitfalls and how to avoid them
 - Visualization techniques for results
