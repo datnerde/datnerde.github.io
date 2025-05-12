@@ -1,0 +1,137 @@
+\documentclass[11pt,letterpaper,sans]{moderncv}  
+
+% Modern themes configuration
+\moderncvstyle{banking}                            % style options: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{purple}                               % color options: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+\nopagenumbers{}                                   % suppress automatic page numbering
+
+% Character encoding and packages
+\usepackage[utf8]{inputenc}
+\usepackage{tabularx}
+\usepackage{ragged2e}
+\usepackage{xcolor, soul}
+\sethlcolor{lightgray}
+
+% Adjust the page margins
+\usepackage[scale=0.93, top=0.3cm, bottom=0.3cm]{geometry}  % Tweak top/bottom margins
+\usepackage{multicol}
+\input{glyphtounicode}
+\pdfgentounicode = 1
+\setlength{\hintscolumnwidth}{2cm}                 % width of the column with dates
+
+% Personal information
+\name{Ming}{Zhong}
+\email{m.zhong@columbia.edu}
+\phone[mobile]{(+1) 646-287-6095}
+\social[linkedin]{stevenoppa}
+\social[github]{datnerde}
+
+% Custom CV entry command with better formatting
+\newcommand*{\customcventry}[7][.1em]{
+  \begin{tabular}{@{}l} 
+    {\bfseries #4}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\bfseries #5}
+  \end{tabular} \\
+  \begin{tabular}{@{}l} 
+    {\itshape #3}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #2}
+  \end{tabular}
+  \ifx&#7&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#7%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+% Custom CV project command
+\newcommand*{\customcvproject}[4][.1em]{
+  \begin{tabular}{@{}l} 
+    {\bfseries #2}
+  \end{tabular}
+  \hfill% move it to the right
+  \begin{tabular}{l@{}}
+     {\itshape #3}
+  \end{tabular}
+  \ifx&#4&%
+  \else{\\%
+    \begin{minipage}{\maincolumnwidth}%
+      \small#4%
+    \end{minipage}}\fi%
+  \par\addvspace{#1}}
+
+\setlength{\tabcolsep}{11pt}
+
+%----------------------------------------------------------------------------------
+%            Content
+%----------------------------------------------------------------------------------
+\begin{document}
+
+% Title
+\makecvtitle
+\vspace{-40pt} % Reduce gap after title
+\RaggedRight % Prevent underfull hbox warnings
+% \section{SUMMARY}
+
+% {\normalsize Self-motivated Senior Data Scientist with 5+ years of experience in the retail industry. Expertise leveraging analytical techniques to transform data into business intelligence. Proven track record of collaborating across teams in agile framework, developing ETL pipelines, and providing data-driven solutions to drive business growth and operational efficiency.}
+
+\section{SKILLS}
+\textbf{Languages/Tools:} Python, SQL, R, Spark, Java, JavaScript, HTML, Tableau, PowerBI
+\\
+\textbf{Frameworks:} Agile, Pyspark, TensorFlow, MLflow, Pyomo, Keras, Scikit-learn, Pandas, PyTorch, nloptr
+\\
+\textbf{Platforms:} Databricks, AWS (certified solution architect), GCP, Azure, Git
+
+\section{PROFESSIONAL EXPERIENCE}
+
+\customcvproject{Senior Data Scientist, \normalfont Circle K Stores Inc., Tempe, AZ}{\normalfont Aug. 2022 - Present}
+{\begin{itemize}
+\item \textbf{{Analog Site Tool:}} Identified comparable stores for financial forecasting using Mahalanobis distance and ML-driven feature selection, enabling data-driven site analysis for Real Estate teams.
+\item \textbf{{White Space Tools:}} Developed random forest ROI models for 220K+ block groups using location-based features, identifying 15K+ high-ROI areas, which optimized site planning in US/Canada.
+\item \textbf{{Site Selection Model:}} Enhanced revenue prediction accuracy by 15\% through the development of a random forest regression model, preventing potential real estate investment failures exceeding \$2M in the Texas sector.
+\item \textbf{{Churn Prediction:}} Built end-to-end churn prediction pipeline (Scikit-Learn, MLflow) with $> 0.9$ accuracy and 0.82 AUC. Analyzed customer segments and visualized key churn drivers to support retention strategies.
+\item \textbf{Pricing Optimization:} Created multi-objective pricing optimizer (genetic algorithms, compromise programming), improving runtime 10x and boosting profits by 1–3\% annually via rule-based pricing.
+\end{itemize}
+}
+
+{\customcvproject{Data Scientist, \normalfont Circle K Stores Inc., Tempe, AZ}{\normalfont June 2021 - July 2022}
+{\begin{itemize}
+\item \textbf{{Carwash Demand Forecast:}}Forecasted carwash demand using Prophet, ARIMA, RNNs, and LSTM models, enabling supply chain and pricing optimization that led to \$500K+ in cost savings.
+\item \textbf{{Localized Pricing Engine:}} Migrated pricing engine from Databricks to Azure Data Factory, reducing refresh time by 88\% (from 80 to 10 hours) and operational cost by 76\% (\$500 each run).
+\item \textbf{{Localized Pricing:}} Modeled SKU-level price elasticity using UCM-based time series forecasting, driving 3\% margin lift and over \$120M in annual gross profit.
+\item \textbf{{Cigarettes A/B Testing:}} Designed and executed A/B testing framework to evaluate cigarette price changes in pilot stores, generating \$700K in margin uplift across the Midwest.
+\item \textbf{{ETL Pipeline:}} Engineered data pipelines to track the state of the storage and ensure data quality for modeling and business purposes, eliminating over 60 hours of manual labor per quarter.
+\end{itemize} 
+}}
+
+{\customcvproject{Business Analyst, \normalfont ROKT Corp., New York, NY}{\normalfont Jan. 2020 - May 2021}
+{\begin{itemize}
+\item \textbf{{Conversions Analytics:}} Analyzed attribution identifier performance via SQL on large-scale campaign data; recommended inclusion of phone numbers, increasing ad conversions by 40\%.
+\item \textbf{{COVID Dashboard:}}Designed Tableau dashboards visualizing 10M+ transactions for 10+ clients to support ad relaunch decisions with COVID recovery metrics.
+\item \textbf{{Account Managers ChatBot:}} Built an NLP chatbot in Google Chat (Python, spaCy, NLTK) to automate client campaign insights; won 1st place in internal hackathon and explored for broader team use.
+\end{itemize} 
+}
+}
+{\customcvproject{Data Science Intern, \normalfont Roche Holding AG, New York, NY}{\normalfont Jul. 2019 - Aug. 2019}
+{\begin{itemize}
+ \item \href{https://datnerde.github.io/2019-08-22-balance/}{\textbf{{R Library Development:}}} Created an R package for data cleaning, cohort balancing (via propensity scores), hypothesis testing, and visualization for RWE data; adopted by 3+ researchers to streamline clinical analyses.
+ \item \href{https://datnerde.github.io/2019-08-22-balance/}{\textbf{{Patient Journey Dashboard:}}} Enhanced and maintained an R Shiny app for visualizing multidimensional patient time series data, enabling faster insight sharing across clinical teams.
+ % \item Analyzed RNA-seq data using enrichment analysis and pathway analysis to help biologists narrow down their research scope to specific over-represented gene
+\end{itemize}
+}
+}
+\section{EDUCATION}
+{\customcventry{\normalfont Aug. 2023 - Present}{\normalfont Master of Science, Computer Science | GPA: 4.0}{Georgia Institute of Technology}{Atlanta, GA}{}{}}
+
+{\customcventry{\normalfont Dec. 2019}{\normalfont Master of Arts, Statistics | GPA: 3.6}{Columbia University}{New York, NY}{}{}}
+
+{\customcventry{\normalfont Jul. 2018}{\normalfont Bachelor of Science, Finance | GPA: 3.7}{University of Macau}{Macau, China}{}{}}
+
+\section{PUBLICATIONS}
+{\customcventry{\normalfont 2024}{\normalfont AssistedDS: Measuring How External Expert Knowledge Assists LLMs in Automated Data Science}{NeurIPS 2025 Datasets and Benchmarks Track (Under Review)}{}{}{Co-authored with A. Luo, X. Xian, et al.}}
+\end{document}
