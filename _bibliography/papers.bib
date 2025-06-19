@@ -12,13 +12,12 @@
       arxiv={2410.20315},
 }
 
-@misc{luo2024assistedds,
-      title={AssistedDS: Measuring How External Expert Knowledge Assists LLMs in Automated Data Science}, 
-      author={An Luo and Xun Xian and Jin Du and Fangqiao Tian and Ganghua Wang and Ming Zhong and Shengchun ZHAO and Xuan Bi and Zirui Liu and Jiawei Zhou and Jayanth Srinivasa and Ashish Kundu and Charles Fleming and Mingyi Hong and Jie Ding},
-      year={2024},
-      note={EMNLP 2025, Under Review},
-      keywords={Data Science},
-      abstract={Large language models (LLMs) can be used to automate full data science workflows, yet their ability to utilize external information for data science remains unclear. To address this gap, we introduce AssistedDS (Assisted Data Science), a benchmark that evaluates how LLMs handle side information when solving tabular prediction tasks. AssistedDS consists of curated tabular prediction tasks, with each task having its corresponding heterogeneous Info Bundle—a collection of diverse documents specifically designed to impact that task. The tabular prediction tasks include (i) synthetic datasets over 10 domains with hand-curated mechanisms mimicking real-world complexity and (ii) dozens of real Kaggle competitions. Each Info Bundle consists of two collections of side information for the corresponding task: helpful and adversarial documents, with helpful documents providing ground truth descriptions (or domain expert notebooks for Kaggle) and adversarial documents presenting advice contradicting the ground truth (or crafted adversarial notebooks for Kaggle). These diverse documents cover data cleaning, feature engineering, and model selection, specifically crafted for each data science task to provide information from different angles. We evaluate state-of-the-art LLMs on submission validity, information recall rate, and end-to-end predictive performance across these guidance scenarios and observed: (1) the fraction of helpful material selected decreases as the document pool grows while the absolute count of picks on helpful document is stable, (2) misleading prompts that label adversarial documents as `helpful' frequently succeed, causing performance drops, and (3) helpful documents seldom yield statistically significant gains. These results expose persistent weaknesses in current LLMs' capacity to identify, trust, and leverage expert knowledge, highlighting an essential research frontier for building robust, knowledge‑aware data‑science with LLM.},
-      url = {https://www.arxiv.org/pdf/2506.13992},
-      arxiv={2506.13992},
+@misc{luo2025assisteddsbenchmarkingexternaldomain,
+      title={AssistedDS: Benchmarking How External Domain Knowledge Assists LLMs in Automated Data Science}, 
+      author={An Luo and Xun Xian and Jin Du and Fangqiao Tian and Ganghua Wang and Ming Zhong and Shengchun Zhao and Xuan Bi and Zirui Liu and Jiawei Zhou and Jayanth Srinivasa and Ashish Kundu and Charles Fleming and Mingyi Hong and Jie Ding},
+      year={2025},
+      eprint={2506.13992},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG},
+      url={https://arxiv.org/abs/2506.13992}, 
 }
